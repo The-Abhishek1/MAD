@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:id="@+id/activity_main"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ tools:context=".MainActivity">
+ <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="Welocme to Opening Screen!!"
+ android:textSize="20sp"
+ android:layout_centerInParent="true"/>
+</RelativeLayout>
+splash.xml file:
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:gravity="center"
+ android:background="@color/design_default_color_primary_variant">
+ <ImageView
+ android:id="@+id/logo_id"
+ android:layout_width="250dp"
+ android:layout_height="250dp"
+ android:layout_centerInParent="true"
+ android:src="@drawable/baseline_add_reaction_24"/>
+ <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_below="@+id/logo_id"
+ android:layout_centerHorizontal="true"
+ android:text="This is an Splash Screen"
+ android:textSize="40dp"
+ android:textColor="@color/black"/>
+</RelativeLayout>
