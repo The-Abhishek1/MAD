@@ -1,0 +1,41 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:paddingBottom="@dimen/activity_vertical_margin"
+ android:paddingLeft="@dimen/activity_horizontal_margin"
+ android:paddingRight="@dimen/activity_horizontal_margin"
+ android:paddingTop="@dimen/activity_horizontal_margin"
+ android:orientation="vertical"
+ android:background="@color/skyblue"
+ tools:context=".MainActivity">
+ <TextView
+ android:id="@+id/t1"
+ android:layout_width="fill_parent"
+ android:layout_height="50dp"
+ android:text="I am Context Menu"
+ android:textColor="@color/design_default_color_background"
+ android:background="@color/yellowgreen"
+ android:paddingBottom="20dp"
+ android:backgroundTint="@color/design_default_color_secondary_variant"
+ android:textAllCaps="true"
+ android:textSize="20sp"
+ />
+ <Button
+ android:id="@+id/button"
+ android:layout_width="fill_parent"
+ android:layout_height="50dp"
+ android:onClick="pop"
+ android:text="I am Pop Menu"
+ android:textColor="@color/design_default_color_background"
+ android:paddingBottom="20dp"
+ android:background="@color/yellowgreen"
+ android:backgroundTint="@color/design_default_color_secondary_variant"
+ android:textAllCaps="true"
+ />
+</LinearLayout>
+
