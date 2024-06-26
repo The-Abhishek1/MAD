@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:orientation="vertical"
+ android:paddingBottom="@dimen/activity_verticle_margin"
+ android:paddingLeft="@dimen/activity_horizontal_margin"
+ android:paddingRight="@dimen/activity_horizontal_margin"
+ android:paddingTop="@dimen/activity_verticle_margin">
+<TextView
+ android:id="@+id/textView"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:text="Hello Students!!" />
+ <Button
+ android:id="@+id/buttonExample"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:text="Example Button" />
+ <CheckBox
+ android:id="@+id/checkBoxExample"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:text="CheckBox Example" />
+ <ToggleButton
+ android:id="@+id/toggleButtonExample"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="ToggleButton Example" />
+ <RadioGroup
+ android:id="@+id/radioGroupExample"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content" >
+ <RadioButton
+ android:id="@+id/radioBtton1"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:checked="true"
+ android:text="RadioButton 1" />
+ <RadioButton
+ android:id="@+id/radioButton2"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="RadioButton 2" />
+
+<RadioButton
+ android:id="@+id/radioButton3"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="RadioButton 3" />
+ </RadioGroup>
+ <ImageButton
+ android:id="@+id/imageButtonExample"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:src="@drawable/baseline_airline_seat_recline_normal_24" />
+</LinearLayout>
+
