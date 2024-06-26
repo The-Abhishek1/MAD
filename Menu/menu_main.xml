@@ -1,0 +1,19 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+ xmlns:android="http://schemas.android.com/apk/res/android">
+ <item android:id="@+id/i1"
+ android:title="Click me to see Sub-menu Item"
+ android:icon="@drawable/baseline_back_hand_24" >
+ <!-- "item" submenu -->
+ <menu>
+ <item android:id="@+id/i2"
+ android:title="Submenuitem 1"
+ android:icon="@drawable/baseline_add_circle_24"
+ />
+ <item android:id="@+id/i3"
+ android:title="Submenuitem 2"
+ android:icon="@drawable/baseline_bluetooth_searching_24" />
+ </menu>
+ </item>
+</menu>
